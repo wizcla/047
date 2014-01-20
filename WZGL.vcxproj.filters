@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\WZGL\WZGL.cpp">
+      <Filter>WZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WZGL\WZGLCore.cpp">
+      <Filter>WZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WZGL\WZMath.cpp">
+      <Filter>WZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Game\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xinputex\xinputex.cpp">
+      <Filter>XInputEx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>Game\GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScene.cpp">
+      <Filter>Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TitleScene.cpp">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\WZGL\WZGL.h">
+      <Filter>WZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WZGL\WZGLCore.h">
+      <Filter>WZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WZGL\WZMath.h">
+      <Filter>WZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>Game\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xinputex\xinputex.h">
+      <Filter>XInputEx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy.h">
+      <Filter>Game\GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScene.h">
+      <Filter>Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TitleScene.h">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="WZGL">
+      <UniqueIdentifier>{a816f23b-e68d-4940-89b6-eab8f231c24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6d5a1989-b62b-4057-ad1f-ba5026b335ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{b144498a-63b4-4594-a9ba-57037df0c80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject">
+      <UniqueIdentifier>{42f8ebf8-dcbe-43d2-b68c-9cd5b8f2d6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\Player">
+      <UniqueIdentifier>{0657fc98-6d93-474c-a16d-0c04b58c284e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XInputEx">
+      <UniqueIdentifier>{55214ad5-809c-4ddd-9c2a-6b850d02d63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\Enemy">
+      <UniqueIdentifier>{38df3096-5b16-422c-92d6-56062e584582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\GameScene">
+      <UniqueIdentifier>{13415d36-8a0c-4211-b3fd-e300f181b00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\TitleScene">
+      <UniqueIdentifier>{d6ddea3a-1bfc-441d-8169-99c6ac1f6d23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
